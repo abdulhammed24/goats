@@ -5,11 +5,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Book Wedding Photographers in Lagos, Nigeria - JoyRibbons",
-    // default: "Vendors | JoyRibbons",
-    template: "%s | JoyRibbons",
+    default: "Greatest of All Time | Goats",
+    template: "%s | Goats",
   },
-  description: "Vendors List",
+  description: "Greatest of All Time List",
 };
 
 export default function RootLayout({

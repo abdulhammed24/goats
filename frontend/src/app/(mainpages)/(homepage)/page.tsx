@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import axios from "axios";
 import Link from "next/link";
 import HomeSkeleton from "./HomeSkeleton";
 
-interface Photographer {
+interface Goat {
   id: number;
   title: string;
   description: string;
@@ -13,40 +12,26 @@ interface Photographer {
   slug: string;
 }
 
-type PhotographersByLocation = {
-  [location: string]: Photographer[];
-};
-
 const Home = () => {
-  const [photographersByLocation, setPhotographersByLocation] =
-    useState<PhotographersByLocation>({});
+  const [goats, setGoats] = useState<Goat[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<{ data: Photographer[] }>(
-          // "${process.env.NEXT_PUBLIC_API_URL}/api/photographies",
-          `${process.env.NEXT_PUBLIC_API_URL}/api/photographies?populate=*`,
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL}/api/goats?populate=*`,
         );
 
-        const photographers = response.data.data;
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
 
-        console.log(photographers);
-
-        const groupedPhotographers =
-          photographers.reduce<PhotographersByLocation>((acc, photographer) => {
-            const location = photographer.location;
-            if (!acc[location]) {
-              acc[location] = [];
-            }
-            acc[location].push(photographer);
-            return acc;
-          }, {});
-
-        setPhotographersByLocation(groupedPhotographers);
-      } catch {
+        const data = await response.json();
+        setGoats(data.data);
+      } catch (error) {
+        console.error(error);
         setError("Failed to fetch data");
       } finally {
         setLoading(false);
@@ -60,26 +45,17 @@ const Home = () => {
     <section className="py-10 md:py-20">
       <div className="container">
         {loading ? (
-          <>
-            <HomeSkeleton />
-          </>
+          <HomeSkeleton />
         ) : error ? (
           <div>{error}</div>
         ) : (
           <>
-            {Object.keys(photographersByLocation).map((location) => (
-              <div key={location} className="mb-10">
-                <h2 className="mb-4 text-xl font-semibold">{location}</h2>
-                {photographersByLocation[location].map((photographer) => (
-                  <div key={photographer.slug}>
-                    <Link
-                      className="underline"
-                      href={`/vendors/${photographer.slug}`}
-                    >
-                      {photographer.title}
-                    </Link>
-                  </div>
-                ))}
+            {goats.map((goat) => (
+              <div key={goat.slug} className="mb-4">
+                <h2 className="text-xl font-semibold">{goat.location}</h2>
+                <Link className="underline" href={`/vendors/${goat.slug}`}>
+                  {goat.title}
+                </Link>
               </div>
             ))}
           </>
