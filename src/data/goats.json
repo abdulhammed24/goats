@@ -80,38 +80,7 @@
     "location": "Manacor, Mallorca, Spain",
     "slug": "rafael-nadal"
   },
-  {
-    "title": "Kobe Bryant",
-    "description": "Kobe Bryant, an American basketball legend, spent 20 years with the Los Angeles Lakers, winning five NBA championships and two Finals MVPs. His 'Mamba Mentality' continues to inspire athletes worldwide.",
-    "images": [
-      "/goats/kobe/20241117_141916.jpg",
 
-      "/goats/kobe/20241117_142201.jpg",
-
-      "/goats/kobe/20241117_142212.jpg",
-
-      "/goats/kobe/20241117_142302.jpg",
-
-      "/goats/kobe/20241117_142359.jpg"
-    ],
-    "location": "Philadelphia, Pennsylvania, USA",
-    "slug": "kobe-bryant"
-  },
-  {
-    "title": "LeBron James",
-    "description": "LeBron James, an American professional basketball player, is widely considered one of the greatest NBA players of all time. A four-time NBA champion and four-time MVP, he is also a philanthropist and activist.",
-    "images": [
-      "/goats/lebron/20241117_142020.jpg",
-
-      "/goats/lebron/20241117_142046.jpg",
-
-      "/goats/lebron/20241117_142124.jpg",
-
-      "/goats/lebron/20241117_142020.jpg"
-    ],
-    "location": "Akron, Ohio, USA",
-    "slug": "lebron-james"
-  },
   {
     "title": "Lionel Messi",
     "description": "Lionel Messi, an Argentinian professional footballer, is one of the most celebrated athletes in history. A seven-time Ballon d'Or winner, Messi has achieved remarkable success with Barcelona, Paris Saint-Germain, and the Argentina national team.",
@@ -127,55 +96,7 @@
     "location": "Rosario, Argentina",
     "slug": "lionel-messi"
   },
-  {
-    "title": "Novak Djokovic",
-    "description": "Novak Djokovic, a Serbian tennis legend, is a 24-time Grand Slam champion and one of the greatest players of all time. Known for his versatility and mental resilience, Djokovic has set numerous records in tennis history.",
-    "images": [
-      "/goats/novak/20241117_144413.jpg",
 
-      "/goats/novak/20241117_144418.jpg",
-
-      "/goats/novak/20241117_144434.jpg",
-
-      "/goats/novak/20241117_144447.jpg",
-
-      "/goats/novak/20241117_144453.jpg"
-    ],
-    "location": "Belgrade, Serbia",
-    "slug": "novak-djokovic"
-  },
-  {
-    "title": "Cam Newton",
-    "description": "Cam Newton, an American football quarterback, is a former NFL MVP known for his athleticism and dynamic play style. He led the Carolina Panthers to the Super Bowl in the 2015 season and remains a prominent figure in football.",
-    "images": [
-      "/goats/cam/20241117_144605.jpg",
-
-      "/goats/cam/20241117_144814.jpg",
-
-      "/goats/cam/20241117_144857.jpg",
-
-      "/goats/cam/20241117_144915.jpg",
-
-      "/goats/cam/20241117_144909.jpg"
-    ],
-    "location": "Atlanta, Georgia, USA",
-    "slug": "cam-newton"
-  },
-  {
-    "title": "Mike Tyson",
-    "description": "Mike Tyson, an American former professional boxer, is one of the most iconic and controversial figures in boxing history. Known as 'Iron Mike,' Tyson was the youngest heavyweight champion in history and had a fearsome reputation in the ring.",
-    "images": [
-      "/goats/mike/20241117_143726.jpg",
-
-      "/goats/mike/20241117_143754.jpg",
-
-      "/goats/mike/20241117_143817.jpg",
-
-      "/goats/mike/20241117_143906.jpg"
-    ],
-    "location": "Brooklyn, New York, USA",
-    "slug": "mike-tyson"
-  },
   {
     "title": "Khabib Nurmagomedov",
     "description": "Khabib Nurmagomedov, a retired Russian mixed martial artist, is one of the greatest MMA fighters of all time. Undefeated with a 29-0 record, Khabib was the UFC Lightweight Champion and is celebrated for his dominance and humility.",
