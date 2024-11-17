@@ -95,53 +95,5 @@
     ],
     "location": "Rosario, Argentina",
     "slug": "lionel-messi"
-  },
-
-  {
-    "title": "Khabib Nurmagomedov",
-    "description": "Khabib Nurmagomedov, a retired Russian mixed martial artist, is one of the greatest MMA fighters of all time. Undefeated with a 29-0 record, Khabib was the UFC Lightweight Champion and is celebrated for his dominance and humility.",
-    "images": [
-      "/goats/khabib/20241117_142555.jpg",
-
-      "/goats/khabib/20241117_142618.jpg",
-
-      "/goats/khabib/20241117_142640.jpg",
-
-      "/goats/khabib/20241117_142655.jpg",
-
-      "/goats/khabib/20241117_142717.jpg"
-    ],
-    "location": "Makhachkala, Dagestan, Russia",
-    "slug": "khabib-nurmagomedov"
-  },
-  {
-    "title": "Conor McGregor",
-    "description": "Conor McGregor, an Irish mixed martial artist and former UFC champion, is one of the most charismatic and successful fighters in MMA history. Known for his striking skills and larger-than-life persona, McGregor is a global superstar.",
-    "images": [
-      "/goats/mc/20241117_143600.jpg",
-
-      "/goats/mc/20241117_143606.jpg",
-
-      "/goats/mc/20241117_143623.jpg",
-
-      "/goats/mc/20241117_143638.jpg"
-    ],
-    "location": "Dublin, Ireland",
-    "slug": "conor-mcgregor"
-  },
-  {
-    "title": "Serena Williams",
-    "description": "Serena Williams, an American professional tennis player, is one of the greatest athletes of all time. With 23 Grand Slam singles titles, Williams has dominated women's tennis and is known for her powerful play and inspiring journey.",
-    "images": [
-      "/goats/serena/20241117_143422.jpg",
-
-      "/goats/serena/20241117_143428.jpg",
-
-      "/goats/serena/20241117_143508.jpg",
-
-      "/goats/serena/20241117_143539.jpg"
-    ],
-    "location": "Saginaw, Michigan, USA",
-    "slug": "serena-williams"
   }
 ]
