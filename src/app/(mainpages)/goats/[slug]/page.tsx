@@ -19,7 +19,7 @@ interface GoatPageProps {
 }
 
 export async function generateMetadata({ params }: GoatPageProps) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const selectedGoat = goat.find((v: Goat) => v.slug === slug);
 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: GoatPageProps) {
 }
 
 const Goats = async ({ params }: GoatPageProps) => {
-  const { slug } = await params;
+  const { slug } = params;
 
   const selectedGoat = goat.find((v: Goat) => v.slug === slug);
 
